@@ -14,6 +14,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import com.api.utilities.MonitoringMail;
+import com.api.utilities.TestConfig;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
@@ -110,9 +112,10 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	public void onFinish(ISuite suite) {
 		
 
-/*
+
+
 		try {
-			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/APITestingFramework/Extent_20Reports/"+fileName;
+			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/RestAssured_Stripe/HTML_20Report/"+fileName;
 		} catch (UnknownHostException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -128,7 +131,7 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-*/
+
 		
 	}
 
