@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="true">
+  
+  <listeners>
+  <listener class-name="com.api.listeners.ExtentListeners"> </listener>
+ </listeners> 
+  <test thread-count="5" name="Create Customer API">
+    <classes>
+      <class name="com.api.testcases.CreateCustomer"/>
+    </classes>
+  </test> <!-- Create Customer API -->
+  
+  <test thread-count="5" name="Delete Customer API">
+    <classes>
+          <class name="com.api.testcases.DeleteCustomer"/>
+    </classes>
+  </test> <!-- Delete Customer API -->
+</suite> <!-- Suite -->
