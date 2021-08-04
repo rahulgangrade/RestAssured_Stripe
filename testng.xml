@@ -7,13 +7,14 @@
  </listeners> 
   <test thread-count="5" name="Create Customer API">
     <classes>
-      <class name="com.api.testcases.CreateCustomer"/>
+      <class name="com.api.testcases.CreateCustomerTest"/>
     </classes>
   </test> <!-- Create Customer API -->
   
   <test thread-count="5" name="Delete Customer API">
     <classes>
-          <class name="com.api.testcases.DeleteCustomer"/>
+          <class name="com.api.testcases.DeleteCustomerTest"/>
     </classes>
   </test> <!-- Delete Customer API -->
+  
 </suite> <!-- Suite -->

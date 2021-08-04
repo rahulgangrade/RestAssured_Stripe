@@ -30,6 +30,7 @@ import junit.framework.Assert;
 public class DeleteCustomerTest extends BaseTest
 
 {
+	
 	@Test(dataProviderClass=DataUtil.class,dataProvider="getData")
 	public void DeletecustomerPositive(Hashtable<String, String> data) throws JSONException
 	{   	
