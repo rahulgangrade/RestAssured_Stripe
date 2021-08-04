@@ -24,7 +24,7 @@ import io.restassured.response.Response;
 public class CreateCustomerTest extends BaseTest
 
 {
-	//Comments .....
+	//This is Create Customer API Test..
 	@Test(dataProviderClass=DataUtil.class,dataProvider="getData")
 	public void validatecustomerPositive(Hashtable<String, String> data)
 	{   	
