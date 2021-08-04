@@ -167,10 +167,12 @@
          <version>4.0.9</version>
      </dependency>
 <!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
+
+<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
 <dependency>
     <groupId>javax.mail</groupId>
-    <artifactId>javax.mail-api</artifactId>
-    <version>1.6.2</version>
+    <artifactId>mail</artifactId>
+    <version>1.4.7</version>
 </dependency>
 
        
